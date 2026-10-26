@@ -174,7 +174,7 @@ export const PROJECTS = [
     live: "https://atmosphere-now.vercel.app",
     github: "",
     bgColor: "linear-gradient(135deg,#0a1a2e,#0a2e2e)",
-    icon: "🌤",
+    icon: "🌤 ",
     accent: "var(--acc)",
   },
 ];
