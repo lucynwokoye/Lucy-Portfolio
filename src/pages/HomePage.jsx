@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import GlowOrb from '../components/GlowOrb';
 import { AUTHOR } from '../data/portfolioData';
 
-// 📸 Profile photo: public/profile-pic.jpeg
+// 📸 Profile photo: public/profile-pic.png
 // To swap: replace that file or update AUTHOR.avatar in src/data/portfolioData.js
 
 export default function HomePage() {
@@ -204,6 +204,7 @@ export default function HomePage() {
         .hex-img {
           width: 108%;
           height: 108%;
+          max-width: none; /* override global img { max-width: 100% } so the photo stays centred */
           object-fit: cover;
           object-position: top center;
           position: absolute;

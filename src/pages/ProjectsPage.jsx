@@ -60,7 +60,7 @@ export default function ProjectsPage() {
       <GlowOrb color="var(--acc3)" size={380} top={-100} right={-150} delay="0.8s" />
 
       <div className="inner">
-        <p className="eyebrow">WHAT I'VE BUILT</p>
+        <p className="eyebrow">SOME OF WHAT I'VE BUILT</p>
         <h2 className="section-title">My <em>Projects</em></h2>
 
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(260px, 1fr))', gap: '1.25rem' }}>
